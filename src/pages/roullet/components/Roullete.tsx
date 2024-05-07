@@ -45,6 +45,7 @@ export default function Roulette() {
             "#9145B7"
           ]}
           onStopSpinning={() => {
+            alert(`Parabéns! Você ganhou: ${data[prizeNumber].option}`);
             setMustSpin(false);
           }}
         />
